@@ -1,10 +1,7 @@
-# Specify phone tech before including full_phone
-$(call inherit-product, vendor/carbon/config/common_cdma.mk)
-
 # Release name
 PRODUCT_RELEASE_NAME := n5110
 
-# Inherit some common CM stuff.
+# Inherit some common Carbon stuff.
 $(call inherit-product, vendor/carbon/config/common_full_tablet_wifionly.mk)
 
 # Inherit device configuration
