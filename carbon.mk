@@ -2,7 +2,7 @@
 PRODUCT_RELEASE_NAME := n5110
 
 # Inherit some common Carbon stuff.
-$(call inherit-product, vendor/carbon/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/carbon/config/common_tablet.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/n5110/full_n5110.mk)
